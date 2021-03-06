@@ -5,12 +5,10 @@ Firebase.setInt(firebaseData, "...path...", value);
 
 =================
 === Example 1 ===
-=================
 Firebase.setInt(firebaseData, "path1", 100);
 
 =================
 === Example 2 ===
-=================
 int x = 100;
 Firebase.setInt(firebaseData, "path1/sub1", x);
 
@@ -31,7 +29,6 @@ else {
 
 =================
 ==== Example ====
-=================
 int x;
 if(Firebase.getInt(firebaseData, "path1")) {
   if(firebaseData.dataType() == "int") {
