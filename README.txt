@@ -16,7 +16,7 @@ Firebase.setInt(firebaseData, "path1/sub1", x);
 
 
 # === Read ===
-if(Firebase.getInt(firebaseData, "...path...")) { \n
+if(Firebase.getInt(firebaseData, "...path...")) {
   if(firebaseData.dataType() == "int") {
     Serial.println(firebaseData.intData());
   }
